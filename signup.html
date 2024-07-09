@@ -16,7 +16,7 @@
   <body>
     <!-- main compartment -->
     <div
-      class="bg-[url('/assets/signup.svg')] w-full min-h-[100vh] bg-cover bg-no-repeat py-10 px-32"
+      class="bg-[url('/assets/signup.svg')] w-full min-h-[100vh] bg-cover bg-no-repeat py-8 px-48"
     >
       <!-- flex-cotainer -->
       <div class="flex flex-row items-center justify-start gap-4">
@@ -24,7 +24,13 @@
         <div
           class="flex w-full flex-col justify-center items-start space-y-5 p-10"
         >
-          <img class="w-48 h-48" src="/assets/logo-dark-mode.svg" alt="logo" />
+          <div>
+            <img
+              class="w-48 h-48"
+              src="/assets/logo-dark-mode.svg"
+              alt="logo"
+            />
+          </div>
           <!-- 1st -->
           <div class="flex space-x-5">
             <img class="w-8 h-8" src="/assets/check-circle.svg" alt="svg" />
@@ -76,9 +82,9 @@
           </div>
         </div>
         <!-- right side -->
-        <div class="w-full flex items-center justify-center">
+        <div class="w-full flex flex-col items-center justify-center">
           <!-- sign up form -->
-          <div class="bg-white rounded-md w-[80%] mx-auto p-12">
+          <div class="bg-white rounded-lg w-[90%] mx-auto mt-20 p-12">
             <div class="text-center font-sans space-y-1">
               <h2 class="font-black text-lg">Create your account</h2>
               <p class="text-slate-600 font-medium">
@@ -101,19 +107,13 @@
               </button>
             </div>
             <!-- divider -->
-            <span class="relative flex justify-center mt-8">
-              <div
-                class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
-              ></div>
-
-              <span class="relative z-10 bg-white px-6"
-                >Lorem, ipsum dolor</span
-              >
-            </span>
+             <div class="mt-8 text-center">
+              <span class="text-gray-700">or</span>
+             </div>
 
             <!-- form -->
             <form action="#" class="mt-8">
-              <div class="flex flex-row items-center justify-center space-x-1">
+              <div class="flex flex-row items-center justify-center space-x-3">
                 <div class="w-full">
                   <label
                     for="firstname"
@@ -144,7 +144,7 @@
                 </div>
               </div>
               <!-- email -->
-              <div class=" mx-auto mt-3">
+              <div class="mx-auto mt-3">
                 <label for="Email" class="block mb-2 font-sans font-semibold"
                   >Email</label
                 >
@@ -157,7 +157,7 @@
                 />
               </div>
               <!-- password -->
-              <div class=" mx-auto mt-3 relative">
+              <div class="mx-auto mt-3 relative">
                 <label for="password" class="block mb-2 font-sans font-semibold"
                   >Password</label
                 >
@@ -170,7 +170,9 @@
                 />
               </div>
               <div class="flex items-center justify-center mt-14">
-                <button class="flex items-center justify-center w-full space-x-2 rounded-md text-white bg-[#9175ff]">
+                <button
+                  class="flex items-center justify-center w-full space-x-2 rounded-md text-white bg-[#5e50ce] hover:bg-[#9175ff] font-semibold py-1"
+                >
                   <span>Continue</span
                   ><span class="w-4 h-4"
                     ><img src="/assets/chevron-right-svgrepo-com.svg" alt=""
@@ -178,6 +180,11 @@
                 </button>
               </div>
             </form>
+            </div>
+            <div class="bg-[#f7f7f7] py-4  w-[90%] -mt-4 rounded-b-md -z-2 text-center">
+              <h2>Already have an account?  <a class="text-blue-700" href="#">Sign in</a></h2>
+
+            </div>
           </div>
         </div>
       </div>
