@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <body>
+    <!-- main compartment -->
+    <div
+      class="bg-[url('/assets/signup.svg')] w-full min-h-[100vh] bg-cover bg-no-repeat py-2 md:py-8  lg:px-40"
+    >
+     <div class="lg:hidden flex justify-center items-center pl-4">
+            <img
+              class="w-36 h-36"
+              src="/assets/logo-dark-mode.svg"
+              alt="logo"
+            />
+          </div>
+      <!-- flex-cotainer -->
+      <div class="flex flex-row items-center justify-start gap-4">
+        <!-- left side -->
+        <div
+          class="hidden lg:flex w-full flex-col justify-center items-start space-y-5 p-2"
+        >
+          <div>
+            <img
+              class="w-48 h-48"
+              src="/assets/logo-dark-mode.svg"
+              alt="logo"
+            />
+          </div>
+          <!-- 1st -->
+          <div class="flex space-x-5">
+            <img class="w-8 h-8" src="/assets/check-circle.svg" alt="svg" />
+            <div class="text-white">
+              <h1 class="font-semibold text-lg lg:text-2xl font-sans">
+                Save development time
+              </h1>
+              <p class="mt-2 font-sans text-sm lg:text-base">
+                Add authentication and user management to your app with just a
+                few lines of code
+              </p>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="flex space-x-5">
+            <img class="w-8 h-8" src="/assets/check-circle.svg" alt="svg" />
+            <div class="text-white">
+              <h1 class="font-semibold text-lg lg:text-2xl font-sans">
+                Increase engagement
+              </h1>
+              <p class="mt-2 font-sans text-sm lg:text-base">
+                Add intuitive UIs designed to decrease friction for your users
+              </p>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="flex space-x-5">
+            <img class="w-8 h-8" src="/assets/check-circle.svg" alt="svg" />
+            <div class="text-white">
+              <h1 class="font-semibold text-lg lg:text-2xl font-sans">
+                Protect your users
+              </h1>
+              <p class="mt-2 font-sans text-sm lg:text-base">
+                Enable features like two-step verification and enjoy automatic
+                security updates
+              </p>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="flex space-x-5">
+            <img class="w-8 h-8" src="/assets/check-circle.svg" alt="svg" />
+            <div class="text-white">
+              <h1 class="font-semibold text-lg lg:text-2xl font-sans">Match your brand</h1>
+              <p class="mt-2 font-sans text-sm lg:text-base">
+                Theme our pre-built components, or integrate with our
+                easy-to-use APIs
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="w-full flex flex-col items-center justify-center">
+          <!-- sign up form -->
+          <div class="bg-white rounded-lg w-[80%] md:w-[60%] lg:w-[70%] mx-auto lg:mt-20 p-6 lg:p-10">
+            <div class="text-center font-sans space-y-1">
+              <h2 class="font-black text-sm md:text-lg">Create your account</h2>
+              <p class="text-slate-600 text-xs md:text-base font-medium">
+                Welcome! Please fill in the details to get started.
+              </p>
+            </div>
+            <!-- CTA -->
+            <div class="mt-6 flex justify-center items-center gap-2">
+              <button
+                class="flex items-center justify-center space-x-4 border border-slate-400 py-1 px-6 rounded-md hover:bg-slate-200 w-full"
+              >
+                <span><img src="/assets/github.svg" alt="" /></span
+                ><span >Github</span>
+              </button>
+              <button
+                class="flex items-center justify-center space-x-4 border border-slate-400 py-1 px-6  rounded-md hover:bg-slate-200 w-full"
+              >
+                <span><img src="/assets/google.svg" alt="" /></span
+                ><span>Google</span>
+              </button>
+            </div>
+            <!-- divider -->
+            <div class="mt-4 md:mt-8 text-center">
+              <span class="text-gray-700">or</span>
+            </div>
+
+            <!-- form -->
+            <form action="#" class="mt-8 space-y-4">
+              <div class="flex flex-row items-center justify-center space-x-3">
+                <div class="w-full">
+                  <label
+                    for="firstname"
+                    class="block w-full mb-2 text-sm font-semibold text-gray- 900"
+                    >First name</label
+                  >
+                  <input
+                    type="text"
+                    id="firstname"
+                    class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                    placeholder=""
+                    required
+                  />
+                </div>
+                <div class="w-full">
+                  <label
+                    for="lastname"
+                    class="block mb-2 text-sm font-semibold text-gray- 900"
+                    >Last name</label
+                  >
+                  <input
+                    type="text"
+                    id="lastname"
+                    class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                    placeholder=""
+                    required
+                  />
+                </div>
+              </div>
+              <!-- email -->
+              <div class="mx-auto mt-3">
+                <label for="Email" class="block mb-2 font-sans font-semibold"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="Email"
+                  class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <!-- password -->
+              <div class="mx-auto mt-3 relative">
+                <label for="password" class="block mb-2 font-sans font-semibold"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="password"
+                  class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="flex items-center justify-center mt-14">
+                <button
+                  class="flex items-center justify-center w-full space-x-2 rounded-md text-white bg-[#5e50ce] hover:bg-[#9175ff] font-semibold py-1"
+                >
+                  <span>Continue</span
+                  ><span class="w-4 h-4"
+                    ><img src="/assets/chevron-right-svgrepo-com.svg" alt=""
+                  /></span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="bg-[#f7f7f7] py-4 w-[80%] md:w-[60%] lg:w-[70%] -mt-4 rounded-b-md -z-2 text-center"
+          >
+            <h2 class="text-sm md:text-base">
+              Already have an account?
+              <a class="text-blue-700" href="#">Sign in</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between mt-8 px-6">
+        <div class="text-white">
+          <a href="#" class="text-xs md:text-sm"> © 2024 Clerk </a>
+        </div>
+        <div class="text-white flex justify-center items-center space-x-2 text-xs md:text-sm">
+          <span>
+            Support
+          </span>
+          <span>
+            Privacy
+          </span>
+          <span>
+            Terms
+          </span>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</body>
+</html>
