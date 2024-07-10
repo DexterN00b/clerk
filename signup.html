@@ -18,6 +18,7 @@
   >
     <div class="w-[75%] mx-auto my-16">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- LHS -->
         <div class="hidden lg:block">
           <div>
             <img class="w-48 h-48" src="assets/logo-dark-mode.svg" alt="logo" />
@@ -78,7 +79,115 @@
           </div>
         </div>
         <!-- RHS -->
-        <div class="flex items-center justify-center">adahnafvhsgfVCNas</div>
+        <div class=" flex items-stretch  justify-center">
+          <div class>
+            <div class="bg-white w-full rounded-md p-4 ">
+              <div class="text-center font-sans space-y-1">
+              <h2 class="font-black text-lg">Create your account</h2>
+              <p class="text-gray-400 font-medium">
+                Welcome! Please fill in the details to get started.
+              </p>
+            </div>
+            <!-- CTA -->
+             <div class="mt-6 flex justify-center items-center gap-2">
+              <button
+                class="flex items-center justify-center space-x-4 border border-slate-400 py-1  rounded-md hover:bg-slate-200 w-full"
+              >
+                <span><img src="/assets/github.svg" alt="" /></span
+                ><span >Github</span>
+              </button>
+              <button
+                class="flex items-center justify-center space-x-4 border border-slate-400 py-1  rounded-md hover:bg-slate-200 w-full"
+              >
+                <span><img src="/assets/google.svg" alt="" /></span
+                ><span>Google</span>
+              </button>
+            </div>
+            <!-- divider -->
+            <div class="mt-4 md:mt-8 text-center">
+              <span class="text-gray-400">or</span>
+            </div>
+             <!-- form -->
+            <form action="#" class="mt-8 space-y-4">
+              <div class="flex flex-row items-center justify-center space-x-3">
+                <div class="w-full">
+                  <label
+                    for="firstname"
+                    class="block w-full mb-2 text-sm font-semibold text-gray- 900"
+                    >First name</label
+                  >
+                  <input
+                    type="text"
+                    id="firstname"
+                    class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                    placeholder=""
+                    required
+                  />
+                </div>
+                <div class="w-full">
+                  <label
+                    for="lastname"
+                    class="block mb-2 text-sm font-semibold text-gray- 900"
+                    >Last name</label
+                  >
+                  <input
+                    type="text"
+                    id="lastname"
+                    class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                    placeholder=""
+                    required
+                  />
+                </div>
+              </div>
+              <!-- email -->
+              <div class="mx-auto mt-3">
+                <label for="Email" class="block mb-2 font-sans font-semibold"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="Email"
+                  class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <!-- password -->
+              <div class="mx-auto mt-3 relative">
+                <label for="password" class="block mb-2 font-sans font-semibold"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="password"
+                  class="bg-gray-50 border border-gray -300 text-gray-900 text-sm rounded-lg outline-none -500 block w-full p-2.5"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="flex items-center justify-center mt-14">
+                <button
+                  class="flex items-center justify-center w-full space-x-2 rounded-md text-white bg-[#5e50ce] hover:bg-[#9175ff] font-semibold py-1 mb-8"
+                >
+                  <span>Continue</span
+                  ><span class="w-4 h-4"
+                    ><img src="/assets/chevron-right-svgrepo-com.svg" alt=""
+                  /></span>
+                </button>
+              </div>
+            </form>
+            
+            </div>
+            <div
+            class="bg-[#f7f7f7] py-4  -mt-4 rounded-b-md -z-2 text-center"
+          >
+            <h2 class="text-sm md:text-base">
+              Already have an account?
+              <a class="text-blue-700" href="#">Sign in</a>
+            </h2>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
