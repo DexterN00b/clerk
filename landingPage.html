@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- cdn -->
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Clerk.com</title>
+  </head>
+  <body>
+    <header>
+      <!-- read-more -->
+      <div
+        class="bg-dark flex items-stretch justify-center space-x-3 py-2 text-white"
+      >
+        <span class="font-semibold">
+          Clerk raises $30M Series B from CRV and Stripe
+        </span>
+        <span class="font-thin">|</span>
+        <div class="flex justify-center items-center text-white">
+          <a href="#" class="font-semibold">Read More</a>
+          <img
+            class="w-4 h-4 cursor-pointer"
+            src="assets/chevron-right-svgrepo-com.svg"
+            alt="svg"
+          />
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav class="px-16 py-5 bg-bgNav border-b">
+        <div class="flex justify-between items-center">
+          <!-- LHS -->
+          <div class="flex items-center space-x-8">
+            <img class="w-20" src="assets/siginin-logo.avif" alt="" />
+            <ul class="hidden lg:flex items-center space-x-6 font-medium">
+              <li class="flex items-center space-x-2 relative cursor-pointer">
+                <a class="" href="#">Product</a
+                ><img class="w-4" src="assets/chevron-down.svg" alt="" />
+              </li>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li class="flex items-center space-x-2 relative cursor-pointer">
+                <a class="" href="#">Company</a
+                ><img class="w-4" src="assets/chevron-down.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <!-- RHS -->
+          <div class="flex items-center space-x-4">
+            <a class="font-medium hidden lg:block" href="#">Sign In</a>
+            <button
+              class="lg:flex items-center bg-dark text-bgNav font-medium rounded-md py-2 px-4 hidden"
+            >
+              Get started
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+            <div class="relative">
+              <button class="lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 9h16.5m-16.5 6.75h16.5"
+                  />
+                </svg>
+              </button>
+              <div class="absolute top-10 right-10 w-[25vw] bg-black px-2 py-5">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
